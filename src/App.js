@@ -92,6 +92,12 @@ async function deleteNote({ id, name }) {
           <Button type="submit" variation="primary">
             Create Note
           </Button>
+        <View
+          name="image"
+          as="input"
+          type="file"
+          style={{ alignSelf: "end" }}
+        />
         </Flex>
       </View>
       <Heading level={2}>Current Notes</Heading>
